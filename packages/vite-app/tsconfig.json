@@ -1,0 +1,12 @@
+{
+  "extends": "@example/tsconfig/tsconfig.json",
+
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["DOM"]
+  },
+
+  "include": ["src"]
+}
